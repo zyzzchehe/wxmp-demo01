@@ -1,0 +1,22 @@
+.container-style{
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+
+.container-style .image-style{
+  width: 500rpx;
+  height: 420rpx;
+}
+
+.container-style text{
+  margin-top: 120rpx;
+}
+
+.container-style .share-style{
+  margin-top: 100rpx;
+  font-size: 60rpx;
+  color: green;
+}
+
+

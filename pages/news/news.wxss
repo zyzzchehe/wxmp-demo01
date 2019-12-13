@@ -1,0 +1,71 @@
+.container-parent{
+  background-color: #f1f1f1;
+}
+
+.article-list {
+  background: white;
+  margin-top: 30rpx;
+  display: flex;
+  flex-direction: column;
+}
+
+.author-time {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.author-icon {
+  width: 100rpx;
+  height: 100rpx;
+  padding: 20rpx 20rpx;
+}
+
+.author-name {
+  font-size: 50rpx;
+  padding: 20rpx 20rpx;
+}
+
+.article-title {
+  padding: 20rpx 20rpx;
+  font-size: 60rpx;
+}
+
+.article-icon {
+  width: 700rpx;
+  height: 400rpx;
+  padding: 20rpx;
+}
+
+.article-text {
+  padding: 20rpx;
+  font-size: 40rpx;
+}
+
+.reader-like-container {
+  display: flex;
+  flex-direction: row;
+  padding: 10rpx;
+}
+
+.reader-like-icon {
+  width: 50rpx;
+  height: 50rpx;
+  padding: 0rpx 20rpx 0rpx 20rpx;
+}
+
+.reader-like-text {
+  width: 50rpx;
+  height: 50rpx;
+}
+
+.reader-share-icon {
+  width: 50rpx;
+  height: 50rpx;
+  padding: 0rpx 20rpx 0rpx 20rpx;
+}
+
+.reader-share-text {
+  width: 50rpx;
+  height: 50rpx;
+}

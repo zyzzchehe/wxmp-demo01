@@ -1,0 +1,7 @@
+<view class="container-style">
+  <image class="image-style" src="../../img/logo.jpg"></image>
+  <text>zyzzchehe</text>
+  <view bindtap="btnshare" class="share-style">
+    <text>开始分享你的美好时光</text>
+  </view>
+</view>

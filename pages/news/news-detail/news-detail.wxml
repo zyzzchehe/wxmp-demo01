@@ -1,0 +1,21 @@
+<view>
+
+  <image class="article-icon" src="{{articleIcon}}"></image>
+  <view class="author-info">
+    <!-- author icon -->
+    <image class="author-icon" src="{{authorIcon}}"></image>
+    <!-- author name -->
+    <text class="author-name">{{authorName}}</text>
+    <!-- data -->
+    <text class="author-date">{{authorDate}}</text>
+  </view>
+
+  <view class="like-save">
+    <image catchtap="doCollect" wx:if="{{collect}}" class="like" src="../../../img/sch.png"></image>
+    <image catchtap="doCollect" wx:else class="like" src="../../../img/sc.png"></image>
+    <image class="save" src="../../../img/fx.png"></image>
+  </view>
+  <view class="article-text">
+    <text>{{articleText}}</text>
+  </view>
+</view>

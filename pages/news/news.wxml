@@ -1,0 +1,23 @@
+<import src="../../template/news-template.wxml" />
+
+<view class="container-parent">
+  <view class="swiper">
+    <swiper indicator-dots="true" autoplay="true" interval="2000" circular="true">
+      <swiper-item>
+        <image src="../../img/banner1.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../img/banner2.jpg"></image>
+      </swiper-item>
+      <swiper-item>
+        <image src="../../img/banner3.jpg"></image>
+      </swiper-item>
+    </swiper>
+  </view>
+  <!--data-* 自定义属性	组件上触发的事件时，会发送给事件处理函数 -->
+  <block wx:for="{{useData}}" wx:for-item="item" wx:key="key">
+    <view bindtap="goNewsDetail" data-newsId="{{item.newsId}}">
+      <template is="newsTemplate" data="{{...item}}" />
+    </view>
+  </block>
+</view>

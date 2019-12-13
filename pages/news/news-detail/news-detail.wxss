@@ -1,0 +1,47 @@
+.author-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.author-icon {
+  padding: 10rpx;
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 30px;
+}
+
+.author-name {
+  margin-left: 20rpx;
+}
+
+.author-date {
+  margin-left: 20rpx;
+}
+
+.like-save {
+  display: flex;
+  flex-direction: row;
+}
+
+.like {
+  margin-left: 630rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.save {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+  width: 40rpx;
+  height: 40rpx;
+}
+
+.article-icon{
+  width: 97%;
+  padding: 10rpx;
+}
+
+.article-text{
+  margin-top: 30rpx;
+  padding: 20rpx;
+}
